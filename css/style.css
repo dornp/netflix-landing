@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+hr {
+    height: 10px;
+    border: none;
+    background: rgb(42, 40, 40);
+}
+
+/* hero block*/
+
+.container_main_screen {
+    overflow: hidden;
+    position:relative;
+    background: linear-gradient(to bottom, rgb(0, 0, 0, .8), rgb(0, 0, 0, .4), rgba(0, 0, 0, .8));
+}
+
+.bg_main_screen {
+    position: absolute;
+    background: url(../img/CY-en-20220718-popsignuptwoweeks-perspective_alpha_website_large.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+
+}
+
+.logo_menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px 55px;
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+}
+
+.sign_in_btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.main_page_content {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 200px;
+    margin-bottom: 180px;
+}
+
+.big_text_center {
+    text-align: center
+}
+
+.medium_text_center {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.small_text_center {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+.email_block {
+    display: flex;
+    width: 780px;
+    height: 80px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.email_field {
+    width: 50%;
+    flex: 2;
+    border: none;
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 10px;
+}
+
+.email_btn {
+    font-size: 30px;
+    flex: 1;
+    color: white;
+    border: none;
+    background: rgba(255, 0, 0, 0.915) url(../img/next.png) no-repeat 92% center;
+    background-size: 30px;
+    cursor: pointer;
+}
+
+.email_btn:hover {
+    background-color:red;
+}
+
+/* tv-block */
+
+.container_tv {
+    padding: 130px 12% 80px;
+}
+
+.box_tv {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.tv_img {
+    width: 700px;
+    height: auto;
+}
+
+.box_tv_text .medium_text_box_tv {
+    margin-top: 20px;
+}
+
+/* download block */
+
+.container_download {
+    padding: 130px 12% 100px;
+}
+
+.box_download {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.download_img {
+    width: 420px;
+    height: auto;
+}
+
+.box_download_text {
+    padding-left: 250px;
+}
+
+.box_download_text .medium_text_box_download {
+    margin-top: 20px;
+}
+
+/* devices block */
+
+.container_devices {
+    padding: 130px 12% 100px;
+}
+
+.box_devices {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.devices_img {
+    width: 630px;
+    height: auto;
+}
+
+.box_devices_text {
+    padding-right: 100px;
+}
+
+.box_devices_text .medium_text_box_devices {
+    margin-top: 20px;
+}
+
+/* kids block */
+
+.container_kids {
+    padding: 130px 12% 100px;
+}
+
+.box_kids {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.kids_img {
+    width: 630px;
+    height: auto;
+}
+
+.box_kids_text .medium_text_box_kids {
+    margin-top: 20px;
+}
+
+/* questions block */
+
+.container_questions {
+    padding: 100px 22%;
+}
+
+.box_questions_and_email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FAQ_title {
+    padding-bottom: 50px;
+}
+
+.q_container {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.question {
+    padding: 30px;
+    margin-bottom: 1px;
+    background-color: #303030;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.answer {
+    padding: 30px;
+    background-color: #303030;
+    display: none;
+}
+
+.open_close {
+    position: absolute;
+    right: 30px;
+    top: 32.5px;
+    height: 30px;
+
+}
+
+.plus {
+    width: 35px;
+    height: auto;
+}
+
+.ready_to_watch_bottom {
+    margin-top: 50px;
+}
+
+.q_container.show .answer {
+    display: block;
+}
+
+.q_container.show .open_close {
+    transform: rotate(45deg);
+}
