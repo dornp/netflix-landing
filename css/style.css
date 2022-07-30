@@ -333,6 +333,11 @@ hr {
     width: 45%;
     position: relative;
     overflow-y: auto;
+    
+}
+
+.box_form input {
+    color: white;
 }
 
 .form_title {
