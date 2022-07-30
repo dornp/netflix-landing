@@ -258,8 +258,6 @@ hr {
     background-color: #303030;
     position: relative;
     cursor: pointer;
-    
-
 }
 
 .question h3 {
@@ -334,6 +332,7 @@ hr {
     padding: 80px 80px;
     width: 45%;
     position: relative;
+    overflow-y: auto;
 }
 
 .form_title {
@@ -356,6 +355,7 @@ hr {
     background: red;
     font-size: 20px;
     cursor: pointer;
+    color: white;
 }
 
 .submit_btn:active {
@@ -832,81 +832,120 @@ a {
     }
 }
 
-    /* media widescreen */
+/* media widescreen */
 
-    @media(min-width: 913px) and (max-width: 1180px) {
-        h2 {
-            font-size: 50px;
-        }
-        
-        h3 {
-            font-size: 25px;
-        }
-        
-        h4 {
-            font-size: 20px;
-        }
-    
-        /* hero block media widescreen */
-    
-        .logo_menu {
-            padding: 30px 40px;
-        }
-    
-        .sign_in_btn {
-            font-size: 18px;
-            padding: 5px 10px;
-        }
-    
-        .logo {
-            width: 13%;
-        }
-    
-        .main_page_content {
-            width: 60%;
-            margin: 100px 0px;
-        }
-    
-        .medium_text_center {
-            margin-top: 15px;
-        }
-        
-        .small_text_center {
-            margin-top: 15px;
-        }
-    
-        .email_block {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            margin-top: 20px;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .email_field {
-            font-size: 15px;
-            padding: 15px;
-            width: 100%;
-            margin-bottom: 30px;
-        }
-    
-        .email_btn {
-    
-            font-size: 18px;
-            padding: 8px 10px;
-        }
-        
-        .arrow_img {
-            width: 15px;
-            height: 15px;
-            margin-left: 5px;
-        }
-    
-        .mini-container {
-            padding: 80px 12% 60px;
-        }
+@media(min-width: 913px) and (max-width: 1180px) {
+    h2 {
+        font-size: 50px;
     }
+    
+    h3 {
+        font-size: 25px;
+    }
+    
+    h4 {
+        font-size: 20px;
+    }
+
+    /* hero block media widescreen */
+
+    .logo_menu {
+        padding: 30px 40px;
+    }
+
+    .sign_in_btn {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    .logo {
+        width: 13%;
+    }
+
+    .main_page_content {
+        width: 60%;
+        margin: 100px 0px;
+    }
+
+    .medium_text_center {
+        margin-top: 15px;
+    }
+    
+    .small_text_center {
+        margin-top: 15px;
+    }
+
+    .email_block {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .email_field {
+        flex: 1;
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    .email_btn {
+        font-size: 25px;
+        padding: 15px 20px;
+        background-size: 30px;
+
+    }
+    
+    .arrow_img {
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
+    }
+
+    .mini-container {
+        padding: 80px 6% 60px;
+    }
+
+    /* download block media widescreen */
+
+    .box_download_text {
+        padding-left: 150px;
+    }
+
+    /* questions block media widescreen */
+
+    .container_questions {
+        padding: 100px 15% 40px;
+    }
+
+    .plus {
+        width: 30px;
+        height: auto;
+    }
+
+    .ready_to_watch_bottom {
+        width: 65%;
+    }
+
+    /* modal media widescreen */
+    
+    .container_modal {
+        top: 0px;
+        background: rgba(0, 0, 0);
+    }
+    
+    
+    .box_form {
+        background: black;
+        padding: 80px 80px;
+        width: 100%;
+    }
+
+    .close_btn {
+        right: 60px;
+        top: 0px;
+    }
+
+}
 
 
 
