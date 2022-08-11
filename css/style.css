@@ -404,6 +404,49 @@ a {
     cursor: pointer;
 }
 
+/* footer */
+
+.footer_menu {
+    padding: 5% 20%;
+    
+}
+
+.questions_footer {
+    font-size: 20px;
+    color: #737373;
+    text-decoration: none;
+}
+
+.questions_footer:hover {
+    text-decoration: underline;
+}
+
+.colmns_layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 30px 0;
+}
+
+.colmn {
+    display: flex;
+    flex-direction: column;
+}
+
+.colmn a {
+    padding-top: 20px;
+    color: #737373;
+    text-decoration: none;
+}
+
+.colmn a:hover {
+    text-decoration: underline;;
+}
+
+.Netflix_Cy {
+    color: #737373;
+    text-decoration: none;
+}
+
 /* media smartphones */
 
 @media(max-width: 500px) {
@@ -618,6 +661,29 @@ a {
         width: 40px;
         height: 40px;
 
+    }
+
+    /* footer smartphones */
+
+    .questions_footer {
+        font-size: 15px;
+    }
+
+    .footer_menu {
+        padding: 5% 10%;
+    }
+
+    .colmns_layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .colmn a {
+        padding-top: 8px;
+        font-size: 12px;
+    }
+
+    .Netflix_Cy {
+        font-size: 12px;
     }
 }
 
@@ -834,6 +900,12 @@ a {
         width: 40px;
         height: 40px;
 
+    }
+
+    /* footer ipad */
+
+    .footer_menu {
+        padding: 5% 10%;
     }
 }
 
